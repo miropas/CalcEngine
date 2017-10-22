@@ -1,11 +1,13 @@
 package com.pluralsight.calcengine;
 
+import com.pluralsight.calcengine.InvalidStatementException;
+
 public class CalculateHelper {
     private static final char ADD_SYMBOL = '+';
     private static final char SUBTRACT_SYMBOL = '-';
     private static final char MULTIPLY_SYMBOL = '*';
     private static final char DIVIDE_SYMBOL = '/';
-    MathCommand command;
+    com.pluralsight.calcengine.MathCommand command;
     double leftValue;
     double rightValue;
     double result;

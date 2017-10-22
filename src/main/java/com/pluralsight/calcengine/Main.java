@@ -1,17 +1,10 @@
-package com.pluralsight.myapp;
+package com.pluralsight.calcengine;
 
 
-import com.pluralsight.calcengine.CalculateHelper;
 import com.pluralsight.calcengine.DynamicHelper;
-import com.pluralsight.calcengine.InvalidStatementException;
-import com.pluralsight.calcengine.MathEquation;
-import com.pluralsight.calcengine.CalculateBase;
 import com.pluralsight.calcengine.Adder;
 import com.pluralsight.calcengine.MathProcessing;
 import com.pluralsight.calcengine.PowerOf;
-import com.pluralsight.calcengine.Subtractor;
-import com.pluralsight.calcengine.Multiplier;
-import com.pluralsight.calcengine.Divider;
 
 public class Main {
 
